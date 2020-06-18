@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="643.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerLetters">
+   <children>
+      <ImageView fitHeight="643.0" fitWidth="827.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/images_2_2_700x600.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="24.0" layoutY="468.0" prefHeight="42.0" prefWidth="478.0" spacing="10.0">
+         <children>
+            <Button id="sale" fx:id="A" mnemonicParsing="false" onAction="#A" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="A" />
+            <Button id="sale" fx:id="B" mnemonicParsing="false" onAction="#B" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="B" />
+            <Button id="sale" fx:id="C" layoutX="60.0" layoutY="10.0" mnemonicParsing="false" onAction="#C" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="C" />
+            <Button id="sale" fx:id="D" layoutX="111.0" layoutY="10.0" mnemonicParsing="false" onAction="#D" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="D" />
+            <Button id="sale" fx:id="E" layoutX="161.0" layoutY="10.0" mnemonicParsing="false" onAction="#E" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="E" />
+            <Button id="sale" fx:id="F" layoutX="212.0" layoutY="10.0" mnemonicParsing="false" onAction="#F" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="F" />
+            <Button id="sale" fx:id="G" layoutX="262.0" layoutY="10.0" mnemonicParsing="false" onAction="#G" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="G" />
+            <Button id="sale" fx:id="H" layoutX="312.0" layoutY="10.0" mnemonicParsing="false" onAction="#H" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="H" />
+            <Button id="sale" fx:id="I" layoutX="363.0" layoutY="10.0" mnemonicParsing="false" onAction="#I" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="I" />
+         </children>
+      </HBox>
+      <HBox layoutX="24.0" layoutY="525.0" prefHeight="42.0" prefWidth="478.0" spacing="10.0">
+         <children>
+            <Button id="sale" fx:id="J" mnemonicParsing="false" onAction="#J" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="J" />
+            <Button id="sale" fx:id="K" mnemonicParsing="false" onAction="#K" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="K" />
+            <Button id="sale" fx:id="L" layoutX="60.0" layoutY="10.0" mnemonicParsing="false" onAction="#L" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="L" />
+            <Button id="sale" fx:id="M" layoutX="111.0" layoutY="10.0" mnemonicParsing="false" onAction="#M" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="M" />
+            <Button id="sale" fx:id="N" layoutX="161.0" layoutY="10.0" mnemonicParsing="false" onAction="#N" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="N" />
+            <Button id="sale" fx:id="O" layoutX="212.0" layoutY="10.0" mnemonicParsing="false" onAction="#O" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="O" />
+            <Button id="sale" fx:id="P" layoutX="262.0" layoutY="10.0" mnemonicParsing="false" onAction="#P" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="P" />
+            <Button id="sale" fx:id="Q" layoutX="312.0" layoutY="10.0" mnemonicParsing="false" onAction="#Q" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="Q" />
+            <Button id="sale" fx:id="R" layoutX="363.0" layoutY="10.0" mnemonicParsing="false" onAction="#R" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="R" />
+         </children>
+      </HBox>
+      <HBox layoutX="44.0" layoutY="580.0" prefHeight="42.0" prefWidth="423.0" spacing="10.0">
+         <children>
+            <Button id="sale" fx:id="S" mnemonicParsing="false" onAction="#S" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="S" />
+            <Button id="sale" fx:id="T" mnemonicParsing="false" onAction="#T" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="T" />
+            <Button id="sale" fx:id="U" layoutX="60.0" layoutY="10.0" mnemonicParsing="false" onAction="#U" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="U" />
+            <Button id="sale" fx:id="V" layoutX="111.0" layoutY="10.0" mnemonicParsing="false" onAction="#V" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="V" />
+            <Button id="sale" fx:id="W" layoutX="161.0" layoutY="10.0" mnemonicParsing="false" onAction="#W" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="W" />
+            <Button id="sale" fx:id="X" layoutX="212.0" layoutY="10.0" mnemonicParsing="false" onAction="#X" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="X" />
+            <Button id="sale" fx:id="Y" layoutX="262.0" layoutY="10.0" mnemonicParsing="false" onAction="#Y" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="Y" />
+            <Button id="sale" fx:id="Z" layoutX="312.0" layoutY="10.0" mnemonicParsing="false" onAction="#Z" prefHeight="42.0" prefWidth="44.0" stylesheets="@application.css" text="Z" />
+         </children>
+      </HBox>
+      <ImageView fx:id="hangman" fitHeight="400.0" fitWidth="313.0" layoutX="440.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="word" layoutX="29.0" layoutY="261.0" prefHeight="94.0" prefWidth="417.0" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="52.0" />
+         </font>
+      </Label>
+      <HBox layoutX="14.0" layoutY="14.0" prefHeight="42.0" prefWidth="341.0">
+         <children>
+            <Label prefHeight="42.0" prefWidth="82.0" text="Score:">
+               <font>
+                  <Font name="System Italic" size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="score" prefHeight="42.0" prefWidth="103.0" text="0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label prefHeight="42.0" prefWidth="68.0" text="Lives:">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Label>
+            <Label fx:id="lives" prefHeight="43.0" prefWidth="90.0" text="10">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <VBox layoutX="639.0" layoutY="469.0" prefHeight="153.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#game" prefHeight="43.0" prefWidth="100.0" text="New Game">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="menu" mnemonicParsing="false" onAction="#menu" prefHeight="43.0" prefWidth="100.0" text="Menu">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="exit" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#exit" prefHeight="43.0" prefWidth="100.0" text="Exit">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
